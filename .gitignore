@@ -1,0 +1,9 @@
+*.pyc
+*.so
+.coverage*
+build
+coverage.html
+dist
+climage.egg-info
+test_blob
+test_image_bad

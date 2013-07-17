@@ -1,0 +1,17 @@
+[Basic]
+method-rgx=([a-z_][a-z0-9_]{1,30}$)|setUp|tearDown
+no-docstring-rgx=(__.*__)|([Tt]est.*)
+
+[Design]
+max-args=10
+max-attributes=20
+min-public-methods=0
+# Need a lot here because unittest classes have a lot
+max-public-methods=100
+
+[Messages Control]
+# Run 'pylint --list-msgs | grep <id>' to see what each ID means.
+disable=R0921,W0142,I0011,R0922,W0703,W0603
+
+[Variables]
+additional-builtins=_

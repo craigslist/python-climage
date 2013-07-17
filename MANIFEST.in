@@ -1,0 +1,7 @@
+include .pylintrc
+include coverage.sh
+include LICENSE
+include README.rst
+graft doc
+prune doc/_build/*
+graft test
